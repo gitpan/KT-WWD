@@ -2,4 +2,6 @@ Revision history for Perl extension KT::WWD.
 
 0.50  Wed Jun  2 19:18:30 2004
 	- original version
+0.51  Say Jun  5 08:50:30 2004
+	- removed requirement for perl 5.8.3
 

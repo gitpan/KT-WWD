@@ -6,7 +6,7 @@ package KT::WWD;
 # All rights reserved.
 #############################################
 
-use 5.008003;
+use 5.0;
 #use strict;
 use warnings;
 use CGI qw(:standard escapeHTML);
@@ -32,7 +32,7 @@ our @ISA = qw(Exporter);
 our %EXPORT_TAGS = ( 'all' => [ qw() ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
-our $VERSION = '0.50';
+our $VERSION = '0.51';
 
 my $header = HTTP::Headers->new('content-type' => 'text/html');
 my $ua = LWP::UserAgent->new;
@@ -142,10 +142,10 @@ For more information and the technical specification, visit http://idserver.org/
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2004 by root
+Copyright (C) 2004 by john@idserver.org
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.3 or,
+it under the same terms as Perl itself, either Perl version 5.0 or,
 at your option, any later version of Perl 5 you may have available.
 
 

@@ -1,4 +1,4 @@
-KT-WWD version 0.50
+KT-WWD version 0.51
 ===================
 
 KT::WWD is the WWD (World Wide Database) client software.  Applications can
@@ -32,7 +32,7 @@ COPYRIGHT AND LICENCE
 Copyright (C) 2000-2004 by Kaizen Technologies Inc. and John Baleshiski
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.3 or,
+it under the same terms as Perl itself, either Perl version 5.0 or,
 at your option, any later version of Perl 5 you may have available.
 
 
