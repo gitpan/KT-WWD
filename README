@@ -1,0 +1,38 @@
+KT-WWD version 0.50
+===================
+
+KT::WWD is the WWD (World Wide Database) client software.  Applications can
+use this module to retrieve WWD objects from any Internet connected system.
+WWD is a static method for retrieving dynamic data.  The data can be atomic
+data, redirected data, or an application that sits behind an object. Objects
+can retrieve other objects and produce their output based on other objects.
+
+A WWD object can be shared with the world, or only to a certain user, IP address
+or domain name. Temporary passwords can be assigned (good for X seconds, or X
+reads). Objects can also be restricted to users who provide the proper read
+password. For more information, visit http://idserver.org/wwd
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module has no dependencies.
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2000-2004 by Kaizen Technologies Inc. and John Baleshiski
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.3 or,
+at your option, any later version of Perl 5 you may have available.
+
+

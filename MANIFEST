@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/KT-WWD.t
+lib/KT/WWD.pm
+META.yml                                 Module meta-data (added by MakeMaker)
